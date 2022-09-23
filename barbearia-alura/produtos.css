@@ -1,5 +1,9 @@
 header {
     background-color: #BBBBBB;
+    position: absolute;
+    left: 250px;
+    
+
 }
 
 nav li {
