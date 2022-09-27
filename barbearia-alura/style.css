@@ -1,4 +1,22 @@
+* {
+    margin: 0px;
+}
 
+header {
+    background-color: rgb(139, 138, 138);
+    position: relative;
+}
+
+header img {
+    padding-left: 10px;
+}
+
+header h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 110px;
+    right: 40%;
+}
 #banner {
     width: 100%;
 }
@@ -47,3 +65,4 @@ ul {
 .imagem-beneficios {
     width: 50%;
 }
+

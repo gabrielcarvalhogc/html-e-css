@@ -53,7 +53,7 @@ nav a:hover {
 
 .produtos li:hover {
     border-color: #24232377;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .produtos li:active {
@@ -61,7 +61,7 @@ nav a:hover {
 }
 
 .produtos li:hover h2 {
-    font-size: 35px;
+    font-size: 33px;
 }
 
 .produtos h2 {
