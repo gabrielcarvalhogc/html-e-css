@@ -25,7 +25,7 @@ header h1 {
 .principal {
     height: 170px;
     background-color: #8b8a8a;
-    padding: 30px;
+    padding: 10px;
 }
 
 p {
@@ -37,18 +37,13 @@ p {
     font-size: 20px;
 }
 
-em strong {
-    color: #FF0000;
-}
-
 .beneficios {
-    background-color: #FFFFFF;
-    padding: 20px;
+    padding:0 20px;
 }
 
 .titulo-centralizado {
     text-align: center;
-    padding-bottom: 10px;
+    padding: 10px 0;
     font-size: 25px;
 }
 
