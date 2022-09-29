@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0px;
@@ -147,4 +153,47 @@ thead {
 td, th {
     border: 1px solid black;
     padding: 8px 15px;
+}
+
+/* css da página inicial*/
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.imagem-beneficios {
+    width: 60%;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
 }
