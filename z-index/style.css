@@ -16,6 +16,7 @@ div {
     background-color: lightcoral;
     left: 50px;
     top: 50px;
+    z-index: -1;
 } /*Caso queira que a div fique sobreposta as outras é só adicionar o valor z-index: 1;*/
 
 
