@@ -8,14 +8,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
-    <link rel="stylesheet" href="flex-e-grid-main/assets/css/reset.css">
-    <link rel="stylesheet" href="flex-e-grid-main/assets/css/estilos.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
 <body>
-    <header>
-        <button>menu</button>
-        <img src="" alt="">
+    <header class="cabecalho">
+        <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="cabecalho__logo">
+        <button class="cabecalho__notificacao" aria-label="Notificação"><i></i></button>
     </header>
+
+    <nav class="menu-lateral">
+        <img src="assets/img/logo.svg" alt="Logotipo da HZC" class="menu-lateral__logo">
+        <a href="#" class="menu-lateral__link">Inicio</a>
+        <a href="#" class="menu-lateral__link">Vídeos</a>
+        <a href="#" class="menu-lateral__link">Picos</a>
+        <a href="#" class="menu-lateral__link">Integrantes</a>
+        <a href="#" class="menu-lateral__link">Camisas</a>
+        <a href="#" class="menu-lateral__link">Pinturas</a>
+    </nav>
 </body>
 
 </html>
