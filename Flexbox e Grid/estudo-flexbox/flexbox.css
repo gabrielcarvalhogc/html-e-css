@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+
+.bloco-1 {
+    background-color: lightblue;
+    padding: 16px;
+    margin: 4px;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.bloco-2 {
+    background-color: lightslategray;
+    padding: 16px;
+    margin: 4px;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
+
+.bloco-3 {
+    background-color: lightcoral;
+    padding: 16px;
+    margin: 4px;
+    border-radius: 3px;
+    width: 60px;
+    height: 60px;
+}
