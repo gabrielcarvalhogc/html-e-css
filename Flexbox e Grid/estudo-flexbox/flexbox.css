@@ -1,5 +1,14 @@
 .container {
     display: flex;
+    /*
+    Propriedades
+    flex-direction:;
+    flex-content:;
+    flex-whap;
+    flex-flow;
+    align-content;
+    gap;
+    */
 }
 
 .bloco-1 {
