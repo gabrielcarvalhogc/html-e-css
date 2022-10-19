@@ -7,6 +7,7 @@
     --branco-bordas: rgba(142, 36, 36, 0.05);
     --fonte-preto: #101828;
     --vermelho-claro: #c3191908;
+    --background-rodape: #F9FAFB;
 }
 
 body {
@@ -52,6 +53,12 @@ body {
     padding: 10px 18px;
     border-radius: 8px;
     margin-right: 3em;
+}
+
+.cabecalho__cadastro:hover {
+    color: var(--branco);
+    padding: 12px 19px;
+    transition: 100ms;
 }
 
 .introducao {
@@ -198,4 +205,51 @@ body {
     size: 14px;
     color: var(--cinza-claro);
     padding: 1em 0;
+}
+
+.rodape {
+    text-align: center;
+    margin: 4em 0;
+    background-color: var(--background-rodape);
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.rodape__descricao {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+    margin: 1em 0;
+}
+
+.rodape__input {
+    width: 20%;
+    padding: 1em 1em;
+    border: 1px solid #D0D5DD;
+    border-radius: 6px;
+    margin-right: 1em;
+}
+
+.rodape__botao {
+    padding: 1em;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.rodape__botao:hover {
+    padding: 1.1em;
+    transition: .1s;
+}
+
+.rodape__copy {
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--cinza-claro);
 }
