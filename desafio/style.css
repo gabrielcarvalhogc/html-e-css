@@ -4,6 +4,13 @@
     --cinza-escuro: #3A404E;
     --cinza-claro: #667085;
     --branco: #FFFFFF;
+    --branco-bordas: rgba(142, 36, 36, 0.05);
+    --fonte-preto: #101828;
+}
+
+body {
+    font-family: var(--fonte);
+    color: var(--fonte-preto);
 }
 
 .cabecalho {
@@ -24,7 +31,6 @@
     align-items: center;
     padding: 0 1em;
     text-decoration: none;
-    font-family: var(--fonte);
     font-size: 16px;
     font-weight: 500;
     color: var(--cinza-claro);
@@ -46,3 +52,114 @@
     border-radius: 8px;
     margin-right: 3em;
 }
+
+.introducao {
+    text-align: center;
+    margin: 3em auto;
+    width: 50vw;
+}
+
+.introducao span {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.introducao h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: .6em 0;
+}
+
+.introducao p {
+    color: var(--cinza-claro);
+    font-weight: 400;
+}
+
+.empresa {
+    display: flex;
+    justify-content: center;
+    margin: 6em 0;
+}
+
+.empresa-container {
+    width: 19%;
+    margin: 0 1em;
+}
+
+.empresa__titulo {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.empresa__destaque {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1em 0;
+}
+
+.empresa__texto {
+    font-weight: 400;
+    color: var(--cinza-claro);
+}
+
+.vagas-talentos {
+    text-align: center;
+}
+
+.talentos__vagas {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--vermelho);
+    padding: 4px 12px;
+    background: var(--branco-bordas);
+    border-radius: 16px;
+}
+
+.talentos__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    margin: .6em 0;
+}
+
+.talentos__texto {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--cinza-claro);
+}
+
+.talentos__img {
+    width: 80vw;
+    margin: 3em 0;
+}
+
+.vagas-container {
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.vagas-container__tipo {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 2em 0 1em;
+}
+
+.vagas-container__caixa {
+    border: 2px solid var(--branco-bordas);
+    margin: 1.5em 0;
+    border-radius: 20px;
+}
+
+.vagas-container__especialidade {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 1.5em 1em;
+}
+
+.vagas-container__salario {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--cinza-claro);
+    padding: 1em;
+}
+
