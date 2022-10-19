@@ -6,6 +6,7 @@
     --branco: #FFFFFF;
     --branco-bordas: rgba(142, 36, 36, 0.05);
     --fonte-preto: #101828;
+    --vermelho-claro: #c3191908;
 }
 
 body {
@@ -163,3 +164,38 @@ body {
     padding: 1em;
 }
 
+.opniao {
+    width: 90vw;
+    background-color: var(--vermelho-claro);
+    border-radius: 16px;
+    margin: 3em auto;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.opniao__destaque {
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--vermelho);
+}
+
+.opniao__titulo {
+    font-weight: 500;
+    font-size: 36px;
+    padding: .6em 0;
+}
+
+.opniao__img {
+    padding: 1em 0;
+}
+
+.opniao__nome {
+    font-weight: 500;
+}
+
+.opniao__trabalho {
+    font-weight: 400;
+    size: 14px;
+    color: var(--cinza-claro);
+    padding: 1em 0;
+}
