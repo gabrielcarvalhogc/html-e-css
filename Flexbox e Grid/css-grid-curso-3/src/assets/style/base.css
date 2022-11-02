@@ -170,6 +170,7 @@ body {
 .navbar__items {
     width: 80%;
     margin: .5rem auto;
+    list-style: none;
 }
 
 .navbar__item {
